@@ -1,8 +1,8 @@
-# 📌 MVP - OBSERVALOG 
+# 📌 MVP - AMPORT 
 
 ## 🎯 Objetivo do MVP
 > Entregar a primeira versão funcional do dashboard, permitindo visualização inicial dos indicadores essenciais.  
-- **Problema que resolve:** ausência de uma visão consolidada dos dados de sinistros.  
+- **Problema que resolve:** ausência de uma visão consolidada dos dados de portuários.
 - **Hipótese:** dashboards simples já ajudam gestores a enxergarem padrões relevantes.  
 - **Valor entregue:** visualização centralizada com dados limpos e estruturados.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 👥 Personas / Usuários-Alvo
-- **Persona 1: Gestor Público de Segurança Viária**  
+- **Persona 1: Gestor Portuário**  
   - Dores: falta de dados organizados; relatórios demorados.  
 
 - **Persona 2: Analista de Dados**  
@@ -31,8 +31,8 @@
 ## 🔑 User Stories (Backlog do MVP)
 | ID  | User Story | Prioridade | Estimativa |
 |-----|------------|------------|------------|
-| US1 | Como gestor, quero visualizar a base consolidada dos sinistros para entender o panorama geral. | Alta | 5 pontos |
-| US2 | Como analista, quero acessar os primeiros gráficos para iniciar análises. | Média | 3 pontos |
+| US1 | Como desenvolvedor, quero realizar a extração e limpeza dos dados da ANTAQ via Python para garantir a integridade da base. | Alta | 5 pontos |
+| US2 | Como analista, quero visualizar o tempo médio de espera e operação por porto para identificar gargalos logísticos. | Alta | 8 pontos |
 
 ---
 
@@ -43,17 +43,18 @@
 ---
 
 ## 📊 Critérios de Aceitação
-- A tela inicial deve exibir informações básicas sobre sinistros.  
-- O sistema deve carregar os dados de forma consistente.  
-- Métricas coletadas: volume de dados processados, tempo de carregamento.
+- Extração Robusta: O script Python (Google Colab) deve acessar o Portal da ANTAQ e tratar falhas de conexão ou mudanças na estrutura do site.
+- Integridade Total: A base de dados não deve conter duplicatas de portos causadas por erros de digitação (normalização de strings).
+- Visualização Funcional: O dashboard deve permitir distinguir claramente o "Tempo de Espera" (fora do porto) do "Tempo de Operação" (no berço).
+- Identificação de Gargalos: Deve ser possível identificar qual porto tem o maior desvio em relação à média de tempo de processamento da região.
 
 ---
 
 ## 📈 Métricas de Validação
-- Número de acessos ao painel  
-- Feedback sobre clareza visual  
-- Necessidade de melhorias identificada pelos usuários
 
+- Qualidade da Base: Percentual de dados inconsistentes ou nulos após a limpeza (Meta: < 2%).
+- Performance de Processamento: Tempo que o script leva para atualizar o dashboard após a extração.
+- Clareza Visual: Avaliação do analista sobre a facilidade de identificar um gargalo em menos de 10 segundos ao olhar o mapa/gráfico.
 ---
 
 ## 🚀 Próximos Passos
@@ -64,5 +65,5 @@
 ---
 
 ## 📂 Anexos / Evidências
-[Assista ao vídeo no YouTube](https://youtu.be/WY0kTnESSbU)
+[Assista ao vídeo no YouTube](x)
 
