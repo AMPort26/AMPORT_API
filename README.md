@@ -44,21 +44,22 @@ Desenvolver um dashboard interativo que integre dados da ANTAQ para analisar a e
 |------|------------|------------|---------|--------|
 | 1 | Alta | Como desenvolvedor, quero realizar a extração e limpeza dos dados da ANTAQ via Python para garantir a integridade da base. | 5 | 1 |
 | 2 | Alta | Como analista, quero visualizar o tempo médio de espera e operação por porto para identificar gargalos logísticos. | 8 | 1 |
-| 3 | Alta | Como gestor, quero um ranking de eficiência dos terminais baseado na movimentação vs infraestrutura instalada. | 8 | 2 |
-| 4 | Média | Como analista, quero identificar os "Top N" motivos de paradas portuárias para entender as causas de ineficiência. | 8 | 2 |
-| 5 | Média | Como usuário, quero filtrar os dados por tipo de carga e terminal para realizar análises segmentadas. | 8 | 3 |
-| 6 | Baixa | Como investidor, quero ver a evolução mensal da quantidade de carga transportada para prever tendências de mercado. | 8 | 3 |
-| 7 | Alta | Como cliente, quero que a interface seja intuitiva e responsiva para facilitar o acesso em diferentes dispositivos. | 8 | 3 |
-
+| 3 | Baixa | Como investidor, quero ver a evolução mensal da quantidade de carga transportada para prever tendências de mercado. | 8 | 2 |
+| 4 | Alta | Como cliente, quero que a interface seja intuitiva e responsiva para facilitar o acesso em diferentes dispositivos. | 8 | 2 |
+| 5 | Baixa | Como usuário, quero filtrar os dados por tipo de carga e terminal para realizar análises segmentadas. | 8 | 2 |
+| 6 | Média | Como analista, quero identificar os "Top N" motivos de paradas portuárias para entender as causas de ineficiência. | 8 | 3 |
+| 7 | Alta | Como gestor, quero visualizar a quantidade de contêineres por navio e o conteúdo transportado para acompanhar a operação portuária de forma detalhada. | 8 | 3 |
+| 8 | Média | Como analista, quero visualizar as principais paradas vinculadas às operações de apoio e seus respectivos tipos de operação para identificar gargalos operacionais. | 8 | 3 |
+| 9 | Alta | Como gestor, quero um ranking de eficiência dos terminais baseado na movimentação vs infraestrutura instalada. | 8 | 3 |
 
 # Registro das Sprints
 
 | Sprint            | Previsão   | Status   | Histórico |
 |-------------------|------------|----------|-----------|
 | 01                | 24/04/2026 | Concluído  | [MVP](MVP/MVP/sp1.md)  |
-| 02                | 15/05/2026 | Aguardando início  | [MVP](MVP/MVP/sp2.md)  |
+| 02                | 22/05/2026 | Aguardando início  | [MVP](MVP/MVP/sp2.md)  |
 | 03                | 29/05/2026 | Aguardando início  | [MVP](MVP/MVP/sp3.md)  |
-| Feira de Soluções | 18/06/2026 | Aguardando início  | [MVP](#)  |
+| Feira de Soluções | 25/06/2026 | Aguardando início  | [MVP](#)  |
 
 
 
